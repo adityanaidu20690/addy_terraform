@@ -1,0 +1,7 @@
+in this terraform project we are following the below
+1) add the key pair to the instance
+  a) first the key pair first we have to create a ssh key using ssh-keygen -t rsa
+  b) after the ssh key is created copy the id_rsa.pub key to your working directory
+2) create the instance
+3) create a security group and add it to the instance
+4) add userdata to the instance(addy.sh file)
